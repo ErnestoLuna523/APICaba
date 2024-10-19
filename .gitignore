@@ -1,0 +1,26 @@
+# Entorno virtual
+venv/
+
+# Archivos de caché de Python
+__pycache__/
+**/__pycache__/
+
+# Ignorar caché en cualquier subcarpeta, como model o routers
+model/__pycache__/
+routers/__pycache__/
+
+# Archivos de entorno local
+.env
+
+# Archivos de paquetes y compilaciones
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+*.log
